@@ -14,7 +14,7 @@ class Counter extends Component { //Can be derived from shortcut cc
          //this.state.count++; Do not work here as React is unaware of the changes we made. Hence, need use a method inherited from Component.
          console.log(product);
          this.setState({value: this.state.value + 1}); //Telling React that the state is going to be changed. React will then call the render() function
-                                                       // and a new react element is returned
+                                                       // and a new react element is returned.
      };
 */
 
